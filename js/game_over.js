@@ -25,6 +25,7 @@ var Game_Over = {
 		txtEnd.anchor.setTo(0.5);
 		txtEnd.setShadow(2,2, 'rgba(0,0,0,1)', 0);
 
+		puntos = 0;
 
 		var boton = juego.add.button(juego.width/2, (juego.height/2) + 100, 'boton', this.iniciarJuego, this);
 		boton.anchor.setTo(0.5);
